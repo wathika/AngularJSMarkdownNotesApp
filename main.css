@@ -67,3 +67,37 @@ div[contenteditable]:focus{
   color:#71CBD0;
 }
 
+.icons {
+  position:absolute;
+  right:0;
+  top:0;
+  padding:10px;
+}
+
+.fa-trash-o, .fa-plus-circle {
+  cursor:pointer;
+}
+
+.fa-check {
+  color:#92D788;
+}
+
+.fa-trash-o {
+  color:#C2474B;
+
+  &:hover {
+    color:darken(#C2474B,20);
+  }
+}
+
+.fa-pencil {
+  color:#DBC394;
+}
+
+.fa-plus-circle {
+  color:#71CBD0;
+
+  &:hover {
+    color:darken(#71CBD0,20);
+  }
+}
